@@ -1,9 +1,12 @@
-const App = () => {
-    return (
-        <div>
+import './index.css';
+import Header from './sections/Header.tsx';
 
-        </div>
-    );
+const App = () => {
+  return (
+    <div className="container mx-auto ">
+      <Header />
+    </div>
+  );
 };
 
 export default App;
