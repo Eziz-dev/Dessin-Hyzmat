@@ -1,0 +1,12 @@
+{
+  "navbar": {
+    "title": "Dessin Hyzmat ES",
+    "whatWeDo": "What we do",
+    "featuresAndServices": "Features & Services",
+    "contactUs": "Contact Us"
+  },
+  "home": {
+    "body": "A store designed for all your pet needs"
+  },
+  "footer": "Some footer"
+}

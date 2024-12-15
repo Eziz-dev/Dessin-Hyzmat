@@ -1,5 +1,7 @@
-import './index.css';
-import Header from './sections/Header.tsx';
+import "./fonts.css";
+import "./index.css";
+
+import Header from "./components/Header.tsx";
 
 const App = () => {
   return (
