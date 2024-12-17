@@ -11,9 +11,7 @@ const NavBar = () => {
 
   return (
     <nav className="container mx-auto px-4 py-2">
-
       <div className="flex justify-between items-center">
-
         <div className="flex items-center flex-shrink-0">
           <a href="#" className="flex items-center">
             <img src="/favicon.png" alt="logo" width={45} height={45} />
@@ -23,8 +21,7 @@ const NavBar = () => {
           </a>
         </div>
 
-
-        <div className="hidden md:flex items-center font-montserrat justify-center space-x-8">
+        <div className="hidden lg:flex items-center font-montserrat justify-center space-x-8">
           <a
             href="#"
             className="inline-block w-44 text-center font-bold hover:text-primary hover:underline transition"
@@ -33,7 +30,7 @@ const NavBar = () => {
           </a>
           <a
             href="#"
-            className="inline-block w-52 text-center font-bold hover:text-primary whitespace-nowrap hover:underline transition"
+            className="inline-block w-44 text-center font-bold hover:text-primary whitespace-nowrap hover:underline transition"
           >
             {t("navbar.featuresAndServices")}
           </a>
@@ -51,7 +48,7 @@ const NavBar = () => {
         </div>
 
         {/* Mobile Menu Button */}
-        <div className="md:hidden text-primary">
+        <div className="lg:hidden text-primary">
           <button onClick={() => setIsOpen(!isOpen)} aria-label="Menu">
             <svg
               className="w-6 h-6"
@@ -73,7 +70,7 @@ const NavBar = () => {
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <div className="md:hidden font-montserrat absolute mx-auto bg-black/85 inset-x-0 space-y-5 flex flex-col items-center gap-4 mt-2 text-white text-lg font-bold">
+        <div className="lg:hidden font-montserrat absolute mx-auto bg-black/75 inset-x-0 space-y-5 flex flex-col items-center gap-4 mt-2 text-white text-lg font-bold">
           <a href="#" className="block w-full text-center py-2">
             {t("navbar.whatWeDo")}
           </a>

@@ -2,12 +2,13 @@
   "navbar": {
     "title": "Dessin Hyzmat ES",
     "whatWeDo": "Our services",
-    "featuresAndServices": "Features & Services",
+    "featuresAndServices": "About us",
     "contactUs": "Contact Us"
   },
   "header": {
     "title": "Welcome to Dessin Hyzmat EO: Logistics Solutions for the Oil and Gas Industry",
-    "h1": "We deliver reliable and efficient transportation services tailored to meet the demands of the energy sector."
+    "h1": "We deliver reliable and efficient transportation services tailored to meet the demands of the Oil&Gas sector.",
+    "contactUs": "Contact us"
   },
   "footer": "Some footer"
 }
