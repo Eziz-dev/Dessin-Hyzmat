@@ -1,13 +1,14 @@
 import "./fonts.css";
 import "./index.css";
-
-import Header from "./components/Header.tsx";
+import NavBar from "./components/NavBar.tsx";
+import Header from "./sections/Header.tsx";
 
 const App = () => {
   return (
-    <div className="container mx-auto ">
+    <>
+      <NavBar />
       <Header />
-    </div>
+    </>
   );
 };
 

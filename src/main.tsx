@@ -6,12 +6,15 @@ import global_ru from "./locales/ru/global.json";
 import global_tm from "./locales/tm/global.json";
 import i18next from "i18next";
 import { I18nextProvider } from "react-i18next";
+import Cookies from "js-cookie";
+
+const savedLanguage = Cookies.get("language") || "en";
 
 i18next.init({
   interpolation: {
     escapeValue: false,
   },
-  lng: "en",
+  lng: savedLanguage,
   resources: {
     en: {
       global: global_en,
@@ -23,6 +26,10 @@ i18next.init({
       global: global_tm,
     },
   },
+});
+
+i18next.on("languageChanged", (lng) => {
+  Cookies.set("language", lng, { expires: 365 }); // Save language in a cookie for 1 year
 });
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(

@@ -1,12 +1,13 @@
 {
   "navbar": {
     "title": "Dessin Hyzmat ES",
-    "whatWeDo": "What we do",
+    "whatWeDo": "Our services",
     "featuresAndServices": "Features & Services",
     "contactUs": "Contact Us"
   },
-  "home": {
-    "body": "A store designed for all your pet needs"
+  "header": {
+    "title": "Welcome to Dessin Hyzmat EO: Logistics Solutions for the Oil and Gas Industry",
+    "h1": "We deliver reliable and efficient transportation services tailored to meet the demands of the energy sector."
   },
   "footer": "Some footer"
 }
