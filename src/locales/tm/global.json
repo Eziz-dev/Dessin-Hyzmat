@@ -1,14 +1,32 @@
 {
-  "navbar": {
+  "global": {
     "title": "Dessin Hyzmat HJ",
-    "whatWeDo": "Biziň Hyzmatlarymyz",
+    "ourServices": "Biziň Hyzmatlarymyz",
     "featuresAndServices": "Biz barada",
     "contactUs": "Biz bilen habarlaşmak"
   },
   "header": {
     "title": "Dessin Hyzmat HJ Hoş Geldiňiz: Nebit-Gaz Pudagy Üçin Logistika Çözgütleri",
     "h1": "Nebit-gaz pudagynyň talaplaryna laýyk ynamly we täsirli transport hyzmatlaryny hödürleýäris.",
-    "contactUs": "Habarlaşmak"
+    "contactUs": "Habarlaşmak",
+    "partners": "Biziň Hyzmatdaşlarymyz"
   },
-  "footer": "Ctoto wnizu"
+  "card": {
+    "air": {
+      "title": "Tiz we Netijeli Howa Gatnawlary",
+      "text": "Dessin Hyzmat-da, biz tiz we ynamly howa gatnawlary hyzmatlaryny hödürleýäris, harytlaryňyzyň islendik uzaklyga wagtynda gowşurylmagyny üpjün edýäris. Kiçi bukjalardan uly ýük daşamalaryna çenli, nebit-gaz pudagy üçin bökdençsiz logistika üpjün edýäris."
+    },
+    "sea": {
+      "title": "Ynamly Deňiz Gatnawlary",
+      "text": "Deňiz gatnawlarymyz uly we agyr ýükleri daşamak üçin tygşytly hyzmat hödürleýär. Halkara deňiz ýollaryna elýeterlilik bilen Dessin Hyzmat, harytlaryňyzy nebit-gaz pudagynyň talaplaryny kanagatlandyrmak üçin dünýäniň islendik ýerine howpsuz we netijeli daşamaga kömek edýär."
+    },
+    "rail": {
+      "title": "Netijeli Demirýol Logistikasy",
+      "text": "Tygşytly we daşky gurşawa zyýansyz transport hyzmatlary üçin demirýol hyzmatlarymyz iň oňat çözgütdir. Dessin Hyzmat, esasy senagat merkezlerini takyklyk bilen baglanyşdyryp, nebit-gaz ýükleriňizi wagtynda we tebigata az täsir edip gowşurmagy üpjün edýär."
+    },
+    "truck": {
+      "title": "Ýük Awtomobil Gatnawlary",
+      "text": "Awtomobil hyzmatlarymyz dürli ululykdaky we görnüşdäki ýükleri gapydan-gapa çenli daşamaga mümkinçilik berýär. Dessin Hyzmat-da, biz ynamlylygy we netijeliligi ileri tutýarys, bu bolsa bizi nebit-gaz pudagynyň logistik zerurlyklary üçin ygtybarly hyzmatdaş edýär."
+    }
+  }
 }

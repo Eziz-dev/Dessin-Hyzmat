@@ -1,14 +1,32 @@
 {
-  "navbar": {
+  "global": {
     "title": "Dessin Hyzmat ES",
-    "whatWeDo": "Our services",
+    "ourServices": "Our services",
     "featuresAndServices": "About us",
     "contactUs": "Contact Us"
   },
   "header": {
     "title": "Welcome to Dessin Hyzmat EO: Logistics Solutions for the Oil and Gas Industry",
     "h1": "We deliver reliable and efficient transportation services tailored to meet the demands of the Oil&Gas sector.",
-    "contactUs": "Contact us"
+    "contactUs": "Contact us",
+    "partners": "Our Partners"
   },
-  "footer": "Some footer"
+  "card": {
+    "air": {
+      "title": "Efficient Air Freight Services",
+      "text": "At Dessin Hyzmat, we specialize in fast and reliable air freight solutions, ensuring your goods reach their destination on time, no matter the distance. From small packages to large-scale cargo, our expertise guarantees seamless logistics for the oil and gas industry."
+    },
+    "sea": {
+      "title": "Reliable Sea Freight Solutions",
+      "text": "Our sea freight services provide cost-effective transportation for large and heavy cargo. With access to international shipping routes, Dessin Hyzmat ensures your goods are safely and efficiently transported to global destinations, supporting the demands of the oil and gas sector."
+    },
+    "rail": {
+      "title": "Efficient Rail Freight Logistics",
+      "text": "For cost-effective and environmentally friendly transportation, our rail freight services are the ideal choice. Dessin Hyzmat connects key industrial hubs with precision, ensuring timely delivery of your oil and gas cargo with minimal environmental impact."
+    },
+    "truck": {
+      "title": "Flexible Trucking Solutions",
+      "text": "Our trucking services ensure door-to-door transportation with the flexibility to handle diverse cargo sizes and types. At Dessin Hyzmat, we prioritize reliability and efficiency, making us the trusted partner for the oil and gas industry’s logistics needs."
+    }
+  }
 }

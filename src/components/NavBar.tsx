@@ -11,12 +11,12 @@ const NavBar = () => {
 
   return (
     <nav className="container mx-auto px-4 py-2">
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center z-0">
         <div className="flex items-center flex-shrink-0">
-          <a href="#" className="flex items-center">
+          <a href={"#header"} className="flex items-center">
             <img src="/favicon.png" alt="logo" width={45} height={45} />
             <span className="font-montserrat text-primary font-semibold pl-5 whitespace-nowrap hover:text-black">
-              {t("navbar.title")}
+              {t("global.title")}
             </span>
           </a>
         </div>
@@ -26,19 +26,19 @@ const NavBar = () => {
             href="#"
             className="inline-block w-44 text-center font-bold hover:text-primary hover:underline transition"
           >
-            {t("navbar.whatWeDo")}
+            {t("global.ourServices")}
           </a>
           <a
             href="#"
             className="inline-block w-44 text-center font-bold hover:text-primary whitespace-nowrap hover:underline transition"
           >
-            {t("navbar.featuresAndServices")}
+            {t("global.featuresAndServices")}
           </a>
           <a
             href="#"
             className="inline-block w-44 text-center font-bold whitespace-nowrap hover:text-primary hover:underline transition"
           >
-            {t("navbar.contactUs")}
+            {t("global.contactUs")}
           </a>
           <div className="flex text-xl gap-3">
             <button onClick={() => handleChangeLanguage("en")}>🇬🇧</button>
@@ -70,15 +70,15 @@ const NavBar = () => {
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <div className="lg:hidden font-montserrat absolute mx-auto bg-black/75 inset-x-0 space-y-5 flex flex-col items-center gap-4 mt-2 text-white text-lg font-bold">
+        <div className="lg:hidden font-montserrat absolute mx-auto bg-primary inset-x-0 space-y-5 flex flex-col items-center gap-4 mt-2 text-white text-lg font-bold z-30">
           <a href="#" className="block w-full text-center py-2">
-            {t("navbar.whatWeDo")}
+            {t("global.ourServices")}
           </a>
           <a href="#" className="block w-full text-center py-2">
-            {t("navbar.featuresAndServices")}
+            {t("global.featuresAndServices")}
           </a>
           <a href="#" className="block w-full text-center py-2">
-            {t("navbar.contactUs")}
+            {t("global.contactUs")}
           </a>
           <div className="flex text-3xl gap-3">
             <button onClick={() => handleChangeLanguage("en")}>🇬🇧</button>
