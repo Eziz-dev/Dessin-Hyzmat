@@ -7,7 +7,7 @@ interface CardProps {
 
 const Card = ({ heading, src, alt, text }: CardProps) => {
   return (
-    <div className="max-w-lg rounded-lg overflow-hidden shadow-lg bg-white">
+    <div className="bg-gray-100 max-w-lg rounded-lg overflow-hidden shadow-lg">
       <img src={src} alt={alt} className="w-full h-64 object-cover" />
       <div className="p-4">
         <h2 className="text-xl font-semibold text-gray-800">{heading}</h2>

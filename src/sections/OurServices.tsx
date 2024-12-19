@@ -5,12 +5,12 @@ const OurServices = () => {
   const [t] = useTranslation("global");
 
   return (
-    <section className="bg-cover h-full bg-center bg-[url('/services-bg2.jpg')]">
+    <section id="OurServices" className="bg-cover h-full bg-center bg-[url('/services-bg2.jpg')]">
       <div className="container mx-auto">
         <h2 className="font-montserrat font-bold text-white text-center text-4xl py-5 lg:text-5xl lg:py-10">
           {t("global.ourServices")}
         </h2>
-        <div className="font-montserrat grid grid-cols-1 md:grid-cols-2 gap-5 px-3">
+        <div className="font-montserrat grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 px-3 pb-5">
           <Card
             src="/plane.jpg"
             alt="plane"

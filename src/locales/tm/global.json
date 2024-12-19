@@ -2,8 +2,9 @@
   "global": {
     "title": "Dessin Hyzmat HJ",
     "ourServices": "Biziň Hyzmatlarymyz",
-    "featuresAndServices": "Biz barada",
-    "contactUs": "Biz bilen habarlaşmak"
+    "aboutUs": "Biz barada",
+    "contactUs": "Biz bilen habarlaşmak",
+    "ourPartners": "Biziň Hyzmatdaşlarymyz"
   },
   "header": {
     "title": "Dessin Hyzmat HJ Hoş Geldiňiz: Nebit-Gaz Pudagy Üçin Logistika Çözgütleri",
@@ -28,5 +29,17 @@
       "title": "Ýük Awtomobil Gatnawlary",
       "text": "Awtomobil hyzmatlarymyz dürli ululykdaky we görnüşdäki ýükleri gapydan-gapa çenli daşamaga mümkinçilik berýär. Dessin Hyzmat-da, biz ynamlylygy we netijeliligi ileri tutýarys, bu bolsa bizi nebit-gaz pudagynyň logistik zerurlyklary üçin ygtybarly hyzmatdaş edýär."
     }
+  },
+  "aboutUs": {
+    "title": "Biz barada",
+    "text": "Dessin Hyzmat-da, biz nebit-gaz pudagy üçin ygtybarly logistik hyzmatdaş bolmak bilen buýsanýarys. Türkmenistanyň paýtagty Aşgabadyň merkezinde ýerleşýän biz, energiýa pudagynyň talaplaryna laýyklykda ýöriteleşdirilen logistik çözgütleri hödürleýäris. Ynamlylyk, netijelilik we innowasiýa baradaky borjumyz bilen toparymyz müşderilerimiziň işiniň üstünligine goşant goşýan üznüksiz transport we üpjünçilik zynjyry hyzmatlaryny üpjün edýär."
+  },
+  "footer": {
+    "country": "Türkmenistan, Aşgabat şäheri,",
+    "street": "2127 (G.Kulyýew) köçesi, 77.",
+    "postal": "Poçta indeksi: 744000",
+    "copyright": "Dessin Hyzmat HJ. Ähli hukuklar goragly.",
+    "phone": "Telefon:",
+    "fax": "Faks: "
   }
 }

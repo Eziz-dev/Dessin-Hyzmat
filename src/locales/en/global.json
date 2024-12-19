@@ -2,8 +2,9 @@
   "global": {
     "title": "Dessin Hyzmat ES",
     "ourServices": "Our services",
-    "featuresAndServices": "About us",
-    "contactUs": "Contact Us"
+    "aboutUs": "About us",
+    "contactUs": "Contact Us",
+    "ourPartners": "Our Partners"
   },
   "header": {
     "title": "Welcome to Dessin Hyzmat EO: Logistics Solutions for the Oil and Gas Industry",
@@ -28,5 +29,17 @@
       "title": "Flexible Trucking Solutions",
       "text": "Our trucking services ensure door-to-door transportation with the flexibility to handle diverse cargo sizes and types. At Dessin Hyzmat, we prioritize reliability and efficiency, making us the trusted partner for the oil and gas industry’s logistics needs."
     }
+  },
+  "aboutUs": {
+    "title": "About Dessin Hyzmat",
+    "text": "At Dessin Hyzmat, we pride ourselves on being a trusted logistics partner for the oil and gas sector. Based in the heart of Turkmenistan’s capital, Ashgabat, we specialize in delivering tailored logistics solutions designed to meet the demanding needs of the energy industry. With a commitment to reliability, efficiency, and innovation, our team ensures seamless transportation and supply chain services, contributing to the success of our clients’ operations."
+  },
+  "footer": {
+    "country": "Turkmenistan, Ashgabat city,",
+    "street": "2127 (G.Kulyyev) street, 77.",
+    "postal": "Postal code: 744000",
+    "copyright": "Dessin Hyzmat ES. All rights reserved.",
+    "phone": "Phone:",
+    "fax": "Fax: "
   }
 }

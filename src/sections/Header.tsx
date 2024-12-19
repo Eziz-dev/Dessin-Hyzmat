@@ -20,6 +20,10 @@ const Header = () => {
           <Button
             className="bg-primary font-bold text-black rounded-xl px-5 py-2 mt-10 2xl:text-2xl"
             title={t("header.contactUs")}
+            onClick={() => {
+              const footerSection = document.getElementById("contactUs");
+              footerSection?.scrollIntoView({ behavior: "smooth" });
+            }}
           />
         </div>
       </div>
