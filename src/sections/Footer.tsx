@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div id="date" className="font-montserrat border-t border-gray-700  pt-4 text-sm text-gray-400 text-center">
+      <div className="font-montserrat border-t border-gray-700  pt-4 text-sm text-gray-400 text-center">
         © {new Date().getFullYear()} {t("footer.copyright")}
       </div>
     </footer>
